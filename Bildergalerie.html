@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bildergalerie</title>
+        <meta name="description" content="Navigationsleiste">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="startbild">
+		<h1>Bildergalerie</h1>
+		</div>
+		<nav>
+			<a href="Startseite.html">Startseite</a>
+			<a href="Bildergalerie.html">Bildergalerie</a>
+		</nav>
+	
+	
+	
+		<main>
+			<div class="bilder1" id="Bilder1">
+				<img alt="replaced" id="bigbild" src="placeholder.png">
+				<span class="schließen">&times;</span>
+				<div id="bildtext">Bild Text</div>
+			</div>
+			
+			<br>
+			<br>
+			<br>
+			<div class="bildergalerie">
+				<div>
+					<img src="img/Baum.jpg" alt="baum" onclick="clickmich(this)">
+					<img src="img/baum2.JPG" alt="baum2" onclick="clickmich(this)">
+					<img src="img/kirche.JPG" alt="feld" onclick="clickmich(this)">
+				</div>
+				<div>
+					<img src="img/kirche.JPG" alt="Kirche" onclick="clickmich(this)">
+					<img src="img/landschaft.JPG" alt="landschaft" onclick="clickmich(this)">
+					<img src="img/straße.JPG" alt="straße" onclick="clickmich(this)">
+				</div>
+				<div>
+					<img src="img/turm.JPG" alt="turm" onclick="clickmich(this)">
+					<img src="img/wald.JPG" alt="wald" onclick="clickmich(this)">
+					<br>
+					<br>
+					<img src="img/weg.JPG" alt="Weg" onclick="clickmich(this)">
+				</div>
+				<div>
+					<img src="img/wiese.JPG" alt="Wegbild" onclick="clickmich(this)">
+					<img src="img/wiese2.JPG" alt="Wiese" onclick="clickmich(this)">
+					<img src="img/Stadt.JPG" alt="Stadt" onclick="clickmich(this)">
+				</div>
+			</div>
+			
+			
+		</main>
+	
+		<script src="javascript/bilder.js"></script>
+	</body>
+</html>
