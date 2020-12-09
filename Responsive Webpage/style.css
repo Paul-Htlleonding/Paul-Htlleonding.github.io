@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    
+}
+#flex{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height:200px;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top: 4%;
+}
+div > img{
+    margin:2%;
+}
+#button1{
+    padding-top: 4%;;
+    margin-left: 46%;
+    padding-right: 10%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+#button2{
+    padding-top: 4%;
+    margin-left: 46%;
+    padding-left: 10%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#img{
+    width: 50vm;
+    height: 50vh;
+    margin-left: 42%;
+
+}
+a{
+    margin-left: 48%;
+    color: white;
+    font-size: 140%;
+}
